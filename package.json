@@ -1,0 +1,24 @@
+{
+  "name": "prettier-plugin-jinja-template-repro-8",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "directory": "prettier-plugin-jinja-template-repro-8",
+    "type": "git",
+    "url": "git@github.com:Asim-Tahir/prettier-plugin-jinja-template-repro-8.git"
+  },
+  "author": {
+    "email": "AsimTahir@protonmail.com",
+    "name": "Asım Tahir",
+    "url": "https://github.com/Asim-Tahir"
+  },
+  "license": "MIT",
+  "scripts": {
+    "lint": "prettier *.jinja",
+    "lint@fix": "prettier -w *.jinja"
+  },
+  "devDependencies": {
+    "prettier": "2.8.6",
+    "prettier-plugin-jinja-template": "0.2.0"
+  }
+}
